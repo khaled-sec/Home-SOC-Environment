@@ -17,7 +17,7 @@ Installed the AD DS role along with RSAT tools, then promoted the server to a Do
 ![image.png](assets/image1.png)
 
 
-Joined the Windows 10 client to the domain using the `Administrator@SERVER.LOCAL` .
+Joined the Windows 10 client to the domain using the `Administrator@SERVER.LOCAL` format.
 
 ![image.png](assets/image2.png)
 
