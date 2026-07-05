@@ -20,10 +20,13 @@ This module documents the network topology and connectivity setup for the Home S
 
 ## Step 2: Network Configuration
 
-![Network config screenshots](assets/network-config.png)
+## Step 2: Network Configuration
 
 Configured static IPs on each machine to ensure consistent addressing across reboots (important for Splunk forwarder targeting and AD DNS resolution).
 
+![Windows Server static IP](assets/server-static-ip.png)
+![Windows 10 static IP](assets/win10-static-ip.png)
+![Kali Linux static IP](assets/kali-static-ip.png)
 ---
 
 ## Step 3: Verify Connectivity
