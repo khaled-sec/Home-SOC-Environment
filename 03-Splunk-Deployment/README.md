@@ -1,6 +1,6 @@
 # Module 03: Splunk Deployment
 
-> Part of the [Home SOC Environment](../Home-SOC-Environment.md) — a self-built lab (Windows Server + AD DS, Windows 10, Kali Linux, Splunk) that's still evolving as new components are added.
+> Part of the [Home SOC Environment](https://github.com/khaled-sec/Home-SOC-Environment) — a self-built lab (Windows Server + AD DS, Windows 10, Kali Linux, Splunk) that's still evolving as new components are added.
 
 **Component:** Splunk Enterprise (Server) + Universal Forwarder (Windows 10) + Sysmon (Windows 10)
 
