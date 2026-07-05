@@ -46,6 +46,6 @@ This confirms all machines are reachable before proceeding with AD DS setup and 
 
 ## Lessons Learned
 
-- Static IPs prevent broken forwarder/DNS configs later — DHCP-assigned addresses can change and silently break Splunk forwarding or domain join.
+
 - Verifying basic connectivity (ping) before touching AD or Splunk saves time troubleshooting "why isn't data flowing" issues that are actually just network issues.
 - Keeping all VMs on the same isolated virtual network (VMware) avoids interference with the host network and keeps the lab self-contained.
