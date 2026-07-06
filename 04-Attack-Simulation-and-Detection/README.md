@@ -18,7 +18,7 @@ With AD DS (Module 02) and Splunk + Sysmon ingestion (Module 03) in place, this 
 
 **Target:** Domain-joined Windows 10 — `192.168.1.20`
 
-Brute-forced the domain account `AD\Khaled` over SMB using Metasploit, confirming valid credentials and admin-level access (`ADMIN$`, `C$`) on the endpoint. Built a Splunk detection correlating failed and successful logons (Event ID 4625/4624) for the same account, and configured a scheduled alert (High severity) that fires when the pattern is met.
+Brute-forced the domain account `AD\Khaled` over SMB using Metasploit. Built a Splunk detection correlating failed and successful logons (Event ID 4625/4624) for the same account, and configured a scheduled alert (High severity) that fires when the pattern is met.
 
 📄 Full write-up → [Attack_1_Brute_Force.md](./Attack_1_Brute_Force.md)
 
