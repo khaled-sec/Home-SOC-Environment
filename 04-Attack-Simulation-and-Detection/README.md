@@ -26,4 +26,4 @@ Brute-forced the domain account `AD\Khaled` over SMB using Metasploit. Built a S
 
 ## Environment
 
-Same lab as prior modules — see [Home-SOC-Environment.md]([../Home-SOC-Environment.md](https://github.com/khaled-sec/Home-SOC-Environment)) for full architecture and component details.
+Same lab as prior modules — see [Home-SOC-Environment.md](https://github.com/khaled-sec/Home-SOC-Environment)) for full architecture and component details.
