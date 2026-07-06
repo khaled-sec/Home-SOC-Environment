@@ -52,7 +52,6 @@ Result:
 
 **Confirmed valid credentials:** `AD\Khaled : Khaled1111`
 
-**Gotcha:** an earlier attempt failed silently because `AD\khaled` was placed *inside* the `USER_FILE` itself instead of using the `SMBDomain` option — Metasploit read it as a literal (broken) username rather than a domain-qualified one.
 
 ![Metasploit SMB brute force — success and session opened](assets/smb_bruteforce.png)
 
