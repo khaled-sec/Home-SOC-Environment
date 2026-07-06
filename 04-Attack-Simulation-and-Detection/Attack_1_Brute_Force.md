@@ -15,12 +15,11 @@
 ## Table of Contents
 
 - [Scenario](#scenario)
-- [Step 1: Successful Brute Force — Metasploit](#step-3-successful-brute-force--metasploit)
-- [Step 2: Splunk Detection](#step-4-splunk-detection)
-- [Step 3: Alert Configuration](#step-5-alert-configuration)
+- [Step 1: Successful Brute Force — Metasploit](#step-1-successful-brute-force--metasploit)
+- [Step 2: Splunk Detection](#step-2-splunk-detection)
+- [Step 3: Alert Configuration](#step-3-alert-configuration)
 - [Post-Exploitation Potential](#post-exploitation-potential)
 - [Incident Response: Next Steps](#incident-response-next-steps)
-- [Key Findings](#key-findings)
 - [What I Learned](#what-i-learned)
 - [Skills Demonstrated](#skills-demonstrated)
 
