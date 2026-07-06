@@ -91,7 +91,7 @@ Returned a single matching row: `Khaled` — 56 failed attempts, 14 successful, 
 
 Verified in **Activity → Triggered Alerts** that the alert is enabled and fires on schedule against live data.
 
-![Save As Alert configuration — High severity](assets/Triggered_Alerts.png)
+![Triggered Alerts list confirming the alert fired](assets/Triggered_Alerts.png)
 
 ---
 
