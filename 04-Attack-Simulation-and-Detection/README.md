@@ -2,6 +2,8 @@
 
 > Part of the [Home SOC Environment](https://github.com/khaled-sec/Home-SOC-Environment).
 
+⚠️ **All attacks are executed in an isolated, air-gapped virtual lab (VMware) with no internet-facing components. No real malware is distributed; payloads are generated solely for detection engineering purposes.**
+
 With AD DS (Module 02) and Splunk + Sysmon ingestion (Module 03) in place, this module simulates real attacks against the domain-joined Windows 10 endpoint and validates detection in Splunk — completing the loop from attack to alert.
 
 ---
