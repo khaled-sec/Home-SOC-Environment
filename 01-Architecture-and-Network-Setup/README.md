@@ -24,9 +24,9 @@ This module documents the network topology and connectivity setup for the Home S
 
 Configured static IPs on each machine to ensure consistent addressing across reboots (important for Splunk forwarder targeting and AD DNS resolution).
 
-![Windows Server static IP](assets/server-static-ip.png)
-![Windows 10 static IP](assets/win10-static-ip.png)
-![Kali Linux static IP](assets/kali-static-ip.png)
+![Windows Server static IP](assets/server_ip.png)
+![Windows 10 static IP](assets/win_ip.png)
+![Kali Linux static IP](assets/kali_ip.png)
 ---
 
 ## Step 3: Verify Connectivity
@@ -38,7 +38,7 @@ ping 192.168.1.10   # Windows Server (DC / Splunk)
 ping 192.168.1.20   # Windows 10 (victim)
 ```
 
-![Ping output](assets/ping-verification.png)
+![Ping output](assets/ping.png)
 
 This confirms all machines are reachable before proceeding with AD DS setup and Splunk deployment.
 
