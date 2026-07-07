@@ -12,7 +12,7 @@ This module documents the network topology and connectivity setup for the Home S
 
 | Machine | Role | IP Address |
 |---------|------|-------------|
-| Kali Linux | Attacker | 192.168.1.X |
+| Kali Linux | Attacker | 192.168.1.30 |
 | Windows Server 2019/2022 | Domain Controller / SOC (Splunk) | 192.168.1.10 |
 | Windows 10 | Domain-joined Victim | 192.168.1.20 |
 
