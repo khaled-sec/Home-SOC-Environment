@@ -18,7 +18,6 @@ This module documents the network topology and connectivity setup for the Home S
 
 ---
 
-## Step 2: Network Configuration
 
 ## Step 2: Network Configuration
 
