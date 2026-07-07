@@ -48,16 +48,4 @@ Configured a scheduled, throttled **High**-severity alert. Full write-up (incide
 
 ---
 
-## Repo Structure
 
-```
-Home-SOC-Environment/
-├── README.md
-├── assets/
-├── 01-Architecture-and-Network-Setup/
-├── 02-Active-Directory-Domain-Setup/
-├── 03-Splunk-Deployment/
-└── 04-Attack-Simulation-and-Detection/
-```
-
-Separate from my guided [SOC-Analyst-Labs](https://github.com/khaled-sec/SOC-Analyst-Labs) repo — this one is fully self-designed, from network topology through attack simulation, for SOC analyst job applications.
