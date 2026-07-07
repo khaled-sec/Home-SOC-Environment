@@ -4,7 +4,7 @@ A self-designed SOC lab to demonstrate hands-on infrastructure and detection eng
 
 **Status:** Core environment built and validated — from network setup, through AD DS and SIEM deployment, to a full attack simulation with a working Splunk detection and alert. Evolving project — more components (e.g. pfSense) will be added over time.
 
-![Home SOC Architecture](assets/architecture-diagram.JPG)
+![Home SOC Architecture](assets/architecture-diagram.PNG)
 
 | Machine | Role | IP Address |
 |---|---|---|
