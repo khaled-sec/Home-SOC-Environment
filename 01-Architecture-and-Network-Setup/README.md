@@ -8,7 +8,7 @@ This module documents the network topology and connectivity setup for the Home S
 
 ## Step 1: VM Topology
 
-![Architecture Diagram](Home-SOC-Environment/assets/architecture-diagram.png)
+![Architecture Diagram](assets/architecture-diagram.png)
 
 | Machine | Role | IP Address |
 |---------|------|-------------|
