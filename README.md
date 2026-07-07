@@ -8,7 +8,7 @@ A self-designed SOC lab to demonstrate hands-on infrastructure and detection eng
 
 | Machine | Role | IP Address |
 |---|---|---|
-| Kali Linux | Attacker | `192.168.1.X` |
+| Kali Linux | Attacker | `192.168.1.30` |
 | Windows Server 2019 | Domain Controller (AD DS) + SOC server (Splunk) | `192.168.1.10` |
 | Windows 10 | Domain-joined victim/endpoint | `192.168.1.20` |
 
