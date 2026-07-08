@@ -1,6 +1,6 @@
 # Home SOC Environment (Self-Built)
 
-A self-designed SOC lab to demonstrate hands-on infrastructure and detection engineering skills — built and documented independently, separate from guided lab exercises.
+A self-designed SOC lab to demonstrate hands-on infrastructure and detection engineering skills — built and documented.
 
 **Status:** Core environment built and validated — from network setup, through AD DS and SIEM deployment, to attack simulation with working Splunk detections and alerts. Evolving project — more components (e.g. pfSense) will be added over time.
 
