@@ -57,6 +57,6 @@ Configured a scheduled, throttled **High**-severity alert. Full write-up (incide
 - Network design & AD DS deployment
 - Splunk SIEM deployment, indexing strategy, Universal Forwarder + Sysmon
 - SPL detection engineering & scheduled/throttled alerting
-- MITRE ATT&CK mapping (T1110, T1204)
+- MITRE ATT&CK mapping (T1110)
 - Incident response planning
 - Attack simulation across multiple techniques (credential-based & execution-based)
