@@ -39,9 +39,6 @@ index=endpoint_win10 (EventCode=4625 OR EventCode=4624)
 
 Configured a scheduled, throttled **High**-severity alert. Full write-up (incident response steps, screenshots) in [Attack_1_Brute_Force.md](./04-Attack-Simulation-and-Detection/Attack_1_Brute_Force.md).
 
-### Attack 2 — Malicious Payload Execution (msfvenom) · MITRE ATT&CK T1204
-
-Generated and executed a payload with msfvenom against the domain-joined endpoint, then validated detection via Sysmon process creation and network connection events. Full write-up in [Attack_2_Malicious_Payload_Execution.md](./04-Attack-Simulation-and-Detection/Attack_2_Malicious_Payload_Execution.md).
 
 ---
 
