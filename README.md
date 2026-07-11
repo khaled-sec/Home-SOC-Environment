@@ -53,6 +53,7 @@ Delivered a disguised Meterpreter payload (`invoice.exe`) via `msfvenom`, execut
 - **Sysmon + Universal Forwarder is a natural pairing** — once the forwarder reads Windows Event Logs, adding Sysmon's channel is minimal extra effort for a major jump in detection depth (process lineage, network connections, credential access).
 - **Correlating failed and successful logons** (not just counting failures) is what separates a real brute-force detection from noisy false positives.
 - **Centralized identity management via AD DS** means a single account or Group Policy change propagates instantly across every domain-joined machine — powerful, but also a bigger blast radius if compromised.
+- **Sysmon Event ID 1 supports IOC-agnostic detection** — instead of hardcoding a single filename, the Attack 2 query was generalized to flag any executable/script launched from a Downloads folder, making the detection reusable against future payloads rather than just the one sample tested.
 
 ---
 
