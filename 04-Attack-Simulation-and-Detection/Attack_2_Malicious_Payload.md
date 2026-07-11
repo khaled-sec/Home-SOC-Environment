@@ -176,7 +176,7 @@ If this were a real detection rather than a controlled lab exercise, the alert f
 
 ## Mitigations / Recommendations
 
-- **Block internet downloads via Group Policy (AD) ** — Push a GPO from the Domain Controller (SERVER.LOCAL) to restrict direct internet file downloads on domain-joined endpoints, applying instantly across all joined machines.
+- **Block internet downloads via Group Policy (AD)** — Push a GPO from the Domain Controller (SERVER.LOCAL) to restrict direct internet file downloads on domain-joined endpoints, applying instantly across all joined machines.
 - **Email/web attachment filtering** — Block or sandbox executable attachments and downloads at the email gateway/proxy before they ever reach the endpoint, since `invoice.exe` simulates a classic phishing lure.
 - **Application whitelisting** — Only allow known, signed binaries to run; an unsigned `invoice.exe` with no vendor metadata should never execute silently.
 - **Endpoint protection / EDR** — Ensure real-time AV/EDR is enabled and up to date; a generic `msfvenom` payload without an encoder is trivially signature-detectable by most modern AV.
