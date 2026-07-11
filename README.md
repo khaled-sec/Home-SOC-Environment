@@ -38,6 +38,8 @@ index=endpoint_win10 (EventCode=4625 OR EventCode=4624)
 ```
 
 Configured a scheduled, throttled **High**-severity alert. Full write-up (incident response steps, screenshots) in [Attack_1_Brute_Force.md](./04-Attack-Simulation-and-Detection/Attack_1_Brute_Force.md).
+
+
 ---
 ### Attack 2 — Malicious Payload Delivery & Execution · MITRE ATT&CK T1204.002 / T1071.001
 
