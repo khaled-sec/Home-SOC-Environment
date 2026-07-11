@@ -39,6 +39,10 @@ index=endpoint_win10 (EventCode=4625 OR EventCode=4624)
 
 Configured a scheduled, throttled **High**-severity alert. Full write-up (incident response steps, screenshots) in [Attack_1_Brute_Force.md](./04-Attack-Simulation-and-Detection/Attack_1_Brute_Force.md).
 
+### Attack 2 — Malicious Payload Delivery & Execution · MITRE ATT&CK T1204.002 / T1071.001
+
+Delivered a disguised Meterpreter payload (`invoice.exe`) via `msfvenom`, executed it on the domain-joined endpoint, and built a generalized Splunk detection (Sysmon Event ID 1) for any executable/script launched from a Downloads folder. Configured a scheduled **High**-severity alert. Full write-up (incident response steps, mitigations, screenshots) in [Attack_2_Malicious_Payload_Execution.md](./04-Attack-Simulation-and-Detection/Attack_2_Malicious_Payload_Execution.md).
+
 
 ---
 
@@ -57,6 +61,6 @@ Configured a scheduled, throttled **High**-severity alert. Full write-up (incide
 - Network design & AD DS deployment
 - Splunk SIEM deployment, indexing strategy, Universal Forwarder + Sysmon
 - SPL detection engineering & scheduled/throttled alerting
-- MITRE ATT&CK mapping (T1110)
+- MITRE ATT&CK mapping (T1110,T1204.002)
 - Incident response planning
 - Attack simulation across multiple techniques (credential-based & execution-based)
